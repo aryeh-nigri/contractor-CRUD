@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Specializations>
+  <Specialization>
+    <ID>1</ID>
+    <Name>Cryptography</Name>
+    <School>Tel Aviv University</School>
+    <MinRate>50</MinRate>
+    <MaxRate>200</MaxRate>
+    <Discipline>Crypto</Discipline>
+  </Specialization>
+  <Specialization>
+    <ID>2</ID>
+    <Name>Graphics Designer</Name>
+    <School>Bar Ilan University</School>
+    <MinRate>42</MinRate>
+    <MaxRate>160</MaxRate>
+    <Discipline>UI</Discipline>
+  </Specialization>
+  <Specialization>
+    <ID>3</ID>
+    <Name>DataBase</Name>
+    <School>Azrielli</School>
+    <MinRate>58</MinRate>
+    <MaxRate>230</MaxRate>
+    <Discipline>DB</Discipline>
+  </Specialization>
+  <Specialization>
+    <ID>4</ID>
+    <Name>Android JAVA</Name>
+    <School>YouTube</School>
+    <MinRate>20</MinRate>
+    <MaxRate>90</MaxRate>
+    <Discipline>Mobile</Discipline>
+  </Specialization>
+  <Specialization>
+    <ID>5</ID>
+    <Name>Java Programming</Name>
+    <School>Machon Lev</School>
+    <MinRate>68</MinRate>
+    <MaxRate>250</MaxRate>
+    <Discipline>General</Discipline>
+  </Specialization>
+  <Specialization>
+    <ID>6</ID>
+    <Name>uyg</Name>
+    <School>tdyr</School>
+    <MinRate>4</MinRate>
+    <MaxRate>786</MaxRate>
+    <Discipline>Mobile</Discipline>
+  </Specialization>
+</Specializations>

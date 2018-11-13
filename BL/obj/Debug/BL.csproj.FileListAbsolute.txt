@@ -1,0 +1,11 @@
+C:\Users\bruno\Desktop\projeto\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\BL\bin\Debug\BL.dll
+C:\Users\bruno\Desktop\projeto\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\BL\bin\Debug\BL.pdb
+C:\Users\bruno\Desktop\projeto\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\BL\bin\Debug\BE.dll
+C:\Users\bruno\Desktop\projeto\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\BL\bin\Debug\DAL.dll
+C:\Users\bruno\Desktop\projeto\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\BL\bin\Debug\DS.dll
+C:\Users\bruno\Desktop\projeto\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\BL\bin\Debug\BE.pdb
+C:\Users\bruno\Desktop\projeto\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\BL\bin\Debug\DAL.pdb
+C:\Users\bruno\Desktop\projeto\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\BL\bin\Debug\DS.pdb
+C:\Users\bruno\Desktop\projeto\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\bruno\Desktop\projeto\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\BL\obj\Debug\BL.dll
+C:\Users\bruno\Desktop\projeto\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\dotNet5777_Project01\BL\obj\Debug\BL.pdb

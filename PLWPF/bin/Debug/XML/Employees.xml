@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Employees>
+  <Employee>
+    <ID>1</ID>
+    <FirstName>Moshe</FirstName>
+    <LastName>Cohen</LastName>
+    <Telephone>543864058</Telephone>
+    <Address>havaad haleumi</Address>
+    <Birthday>05/06/1991</Birthday>
+    <Formation>Student</Formation>
+    <Military>true</Military>
+    <SpecialityID>4</SpecialityID>
+    <BankAccount>
+      <BankNumber>13</BankNumber>
+      <BankName>בנק אגוד לישראל בע"מ</BankName>
+      <BankAgency>63</BankAgency>
+      <BankAddress>אחוזת בית 6-8 </BankAddress>
+      <BankCity>תל אביב -יפו</BankCity>
+      <AccountNumber>874756213</AccountNumber>
+    </BankAccount>
+  </Employee>
+  <Employee>
+    <ID>2</ID>
+    <FirstName>David</FirstName>
+    <LastName>Levi</LastName>
+    <Telephone>528364922</Telephone>
+    <Address>132 king david st</Address>
+    <Birthday>22/09/1980</Birthday>
+    <Formation>Doctor</Formation>
+    <Military>true</Military>
+    <SpecialityID>1</SpecialityID>
+    <BankAccount>
+      <BankNumber>13</BankNumber>
+      <BankName>בנק אגוד לישראל בע"מ</BankName>
+      <BankAgency>63</BankAgency>
+      <BankAddress>אחוזת בית 6-8 </BankAddress>
+      <BankCity>תל אביב -יפו</BankCity>
+      <AccountNumber>87653456</AccountNumber>
+    </BankAccount>
+  </Employee>
+  <Employee>
+    <ID>3</ID>
+    <FirstName>Chaim</FirstName>
+    <LastName>Israel</LastName>
+    <Telephone>582943632</Telephone>
+    <Address>golda meir 42</Address>
+    <Birthday>17/03/1983</Birthday>
+    <Formation>Certificate</Formation>
+    <Military>true</Military>
+    <SpecialityID>4</SpecialityID>
+    <BankAccount>
+      <BankNumber>13</BankNumber>
+      <BankName>בנק אגוד לישראל בע"מ</BankName>
+      <BankAgency>63</BankAgency>
+      <BankAddress>אחוזת בית 6-8 </BankAddress>
+      <BankCity>תל אביב -יפו</BankCity>
+      <AccountNumber>87523412</AccountNumber>
+    </BankAccount>
+  </Employee>
+  <Employee>
+    <ID>4</ID>
+    <FirstName>Daniel</FirstName>
+    <LastName>Fridman</LastName>
+    <Telephone>502739234</Telephone>
+    <Address>shmuel meir 71</Address>
+    <Birthday>22/05/1989</Birthday>
+    <Formation>Bachelor</Formation>
+    <Military>true</Military>
+    <SpecialityID>2</SpecialityID>
+    <BankAccount>
+      <BankNumber>13</BankNumber>
+      <BankName>בנק אגוד לישראל בע"מ</BankName>
+      <BankAgency>63</BankAgency>
+      <BankAddress>אחוזת בית 6-8 </BankAddress>
+      <BankCity>תל אביב -יפו</BankCity>
+      <AccountNumber>987623478</AccountNumber>
+    </BankAccount>
+  </Employee>
+  <Employee>
+    <ID>5</ID>
+    <FirstName>Menachem</FirstName>
+    <LastName>Kafif</LastName>
+    <Telephone>55871234</Telephone>
+    <Address>38 king george st</Address>
+    <Birthday>27/02/1990</Birthday>
+    <Formation>Certificate</Formation>
+    <Military>true</Military>
+    <SpecialityID>3</SpecialityID>
+    <BankAccount>
+      <BankNumber>13</BankNumber>
+      <BankName>בנק אגוד לישראל בע"מ</BankName>
+      <BankAgency>63</BankAgency>
+      <BankAddress>אחוזת בית 6-8 </BankAddress>
+      <BankCity>תל אביב -יפו</BankCity>
+      <AccountNumber>23467825</AccountNumber>
+    </BankAccount>
+  </Employee>
+</Employees>

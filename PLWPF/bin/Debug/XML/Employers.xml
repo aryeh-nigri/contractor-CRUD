@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Employers>
+  <Employer>
+    <ID>1</ID>
+    <IsIndividual>false</IsIndividual>
+    <CompanyName>CryptoComp</CompanyName>
+    <FirstName></FirstName>
+    <LastName></LastName>
+    <StartedDate>2012-09-12T00:00:00</StartedDate>
+    <Telephone>38247812</Telephone>
+    <Address>432 tel aviv st</Address>
+    <Domain>Crypto</Domain>
+  </Employer>
+  <Employer>
+    <ID>2</ID>
+    <IsIndividual>true</IsIndividual>
+    <CompanyName></CompanyName>
+    <FirstName>Michael</FirstName>
+    <LastName>Zeev</LastName>
+    <StartedDate>2014-08-21T00:00:00</StartedDate>
+    <Telephone>57190224</Telephone>
+    <Address>41 strauss</Address>
+    <Domain>UI</Domain>
+  </Employer>
+  <Employer>
+    <ID>3</ID>
+    <IsIndividual>false</IsIndividual>
+    <CompanyName>BackEndComp</CompanyName>
+    <FirstName></FirstName>
+    <LastName></LastName>
+    <StartedDate>2001-02-13T00:00:00</StartedDate>
+    <Telephone>28276281</Telephone>
+    <Address>hataasia 59</Address>
+    <Domain>DB</Domain>
+  </Employer>
+  <Employer>
+    <ID>4</ID>
+    <IsIndividual>false</IsIndividual>
+    <CompanyName>Apps 4 U</CompanyName>
+    <FirstName></FirstName>
+    <LastName></LastName>
+    <StartedDate>2009-12-31T00:00:00</StartedDate>
+    <Telephone>38476343</Telephone>
+    <Address>72 jabutinsky st</Address>
+    <Domain>Mobile</Domain>
+  </Employer>
+  <Employer>
+    <ID>5</ID>
+    <IsIndividual>false</IsIndividual>
+    <CompanyName>Java is Life</CompanyName>
+    <FirstName></FirstName>
+    <LastName></LastName>
+    <StartedDate>2007-05-24T00:00:00</StartedDate>
+    <Telephone>278428923</Telephone>
+    <Address>28 matitiahu hacoen st</Address>
+    <Domain>General</Domain>
+  </Employer>
+</Employers>

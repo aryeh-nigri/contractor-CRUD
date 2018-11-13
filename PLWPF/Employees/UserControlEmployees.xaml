@@ -1,0 +1,106 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PLWPF.Employees"
+             xmlns:BE="clr-namespace:BE;assembly=BE" x:Class="PLWPF.Employees.UserControlEmployees"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="500" Height="auto" Width="auto" Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="20*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40*"/>
+                <ColumnDefinition Width="60*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Background="Yellow" Grid.Column="0" Margin="5">
+                <Label Name="labelMode" Content="Fill all the fields below to add an Employee"/>
+                <DockPanel Visibility="Collapsed" Name="dockPanelIdEmployee">
+                    <Label Content="ID: " />
+                    <Label Name="labelIDEmployee" Content=""/>
+                </DockPanel>
+                <DockPanel Name="dockPanelInputID">
+                    <Label Content="ID:"/>
+                    <TextBox Text="" x:Name="txtIdEmployee" PreviewTextInput="OnlyNumberAllowed" MaxLength="9" />
+                </DockPanel>
+                <DockPanel>
+                    <Label Content="First name:"/>
+                    <TextBox Text="" x:Name="txtFirstNameEmployee" MaxLength="25"/>
+                </DockPanel>
+                <DockPanel>
+                <Label Content="Last name:"/>
+                <TextBox Text="" x:Name="txtLastNameEmployee" MaxLength="25"/>
+                </DockPanel>
+                <DockPanel>
+                <Label Content="Telephone:"/>
+                <TextBox Text="" x:Name="txtTelephoneEmployee" PreviewTextInput="OnlyNumberAllowed" MaxLength="15"/>
+                </DockPanel>
+                <DockPanel>
+                <Label Content="Address:"/>
+                <TextBox Text="" x:Name="txtAddressEmployee" MaxLength="50"/>
+                </DockPanel>
+                <DockPanel>
+                <Label Content="Date of birth:"/>
+                <DatePicker x:Name="datePickerBirthdayEmployee" />
+                </DockPanel>
+                <DockPanel>
+                <Label Content="Formation:"/>
+                    <ComboBox x:Name="comboBoxFormationEmployee">
+                        <ComboBoxItem>Certificate</ComboBoxItem>
+                        <ComboBoxItem>Bachelor</ComboBoxItem>
+                        <ComboBoxItem>Master</ComboBoxItem>
+                        <ComboBoxItem>Doctor</ComboBoxItem>
+                        <ComboBoxItem>Student</ComboBoxItem>
+                    </ComboBox>
+                </DockPanel>
+                <CheckBox Content="Did you served the army?" x:Name="checkBoxMilitaryEmployee"/>
+                <DockPanel>
+                    <Label Content="Speciality:"/>
+                    <ComboBox Name="comboBoxSpeciality" ItemsSource="{Binding Path=SpecsID}" />
+                </DockPanel>
+                <Button Content="Bank Account" Name="btnBankAccount" Click="btnBankAccount_Click"/>
+            </StackPanel>
+
+            <Grid Grid.Column="1">
+                <DataGrid ItemsSource="{Binding}" Name="dataGridEmployees" Margin="5" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" CanUserResizeColumns="False" SelectionChanged="dataGridEmployees_SelectionChanged" MouseDown="dataGridEmployees_MouseDown">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="auto"/>
+                        <DataGridTextColumn Header="Name" Binding="{Binding FirstName}" Width="auto"/>
+                        <DataGridTextColumn Header="Surname" Binding="{Binding LastName}" Width="auto"/>
+                        <DataGridTextColumn Header="Age" Binding="{Binding Age}" Width="auto"/>
+                        <DataGridTextColumn Header="Tel" Binding="{Binding Telephone}" Width="auto"/>
+                        <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="auto" />
+                        <DataGridTextColumn Header="Formation" Binding="{Binding Formation}" Width="auto"/>
+                        <DataGridTextColumn Header="Military" Binding="{Binding IsMilitaryGraduate}" Width="auto"/>
+                        <DataGridTextColumn Header="Speciality ID" Binding="{Binding SpecialtyId}" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="1" Name="gridBottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Button x:Name="btnAddEmployee" Content="ADD" Click="btnAddEmployee_Click"/>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Button x:Name="btnUpdateEmployee" Content="UPDATE" IsEnabled="{Binding ElementName=dockPanelIdEmployee, Path=IsVisible}" Click="btnUpdateEmployee_Click"/>
+            </Grid>
+            <Grid Grid.Column="2">
+                <Button x:Name="btnRemoveEmployee" Content="REMOVE" IsEnabled="{Binding ElementName=dockPanelIdEmployee, Path=IsVisible}" Click="btnRemoveEmployee_Click"/>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</UserControl>

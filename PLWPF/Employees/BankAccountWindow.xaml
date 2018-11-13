@@ -1,0 +1,75 @@
+﻿<Window x:Class="PLWPF.Employees.BankAccountWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF.Employees"
+        mc:Ignorable="d"
+        Title="Bank Account Details" Height="230" Width="300" WindowStartupLocation="CenterOwner">
+    <Grid Background="Black" Height="auto">
+        <!--
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Background="Chocolate" Margin="5" Height="auto" Grid.Column="0">
+            <DockPanel>
+                <Label Content="Number:"/>
+                <TextBox Name="txtBankNumber" PreviewTextInput="OnlyNumberAllowed" MaxLength="15"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="Name:" />
+                <TextBox Name="txtBankName" MaxLength="60" />
+            </DockPanel>
+            <DockPanel>
+                <Label Content="Agency:" />
+                <TextBox Name="txtBankAgency" PreviewTextInput="OnlyNumberAllowed" MaxLength="9"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="Address:" />
+                <TextBox Name="txtBankAddress" MaxLength="100"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="City:"/>
+                <TextBox Name="txtBankCity" MaxLength="30"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="Account Number:" />
+                <TextBox Name="txtAccountNumber" PreviewTextInput="OnlyNumberAllowed" MaxLength="15"/>
+            </DockPanel>
+            <Button Content="ADD" Name="btnAddBankAccount" Click="btnAddBankAccount_Click" />
+        </StackPanel>
+        Grid.Column="1"
+        -->
+        <StackPanel  Background="Azure" Margin="5">
+            <DockPanel>
+                <Label Content="Number:"/>
+                <ComboBox Name="comboBoxBankNumbers" ItemsSource="{Binding Path=bankNumbers}"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="Name:" />
+                <ComboBox Name="comboBoxBankNames" ItemsSource="{Binding Path=bankNames}"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="Agency:" />
+                <ComboBox Name="comboBoxBankAgencies" ItemsSource="{Binding Path=bankAgencies}"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="Address:" />
+                <ComboBox Name="comboBoxBankAddresses" ItemsSource="{Binding Path=bankAddresses}"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="City:"/>
+                <ComboBox Name="comboBoxBankCities" ItemsSource="{Binding Path=bankCities}"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="Account Number:" />
+                <TextBox Name="txtBankAccountNumber" PreviewTextInput="OnlyNumberAllowed" MaxLength="15"/>
+            </DockPanel>
+            <Button Content="ADD" Name="btnAddBank" Click="btnAddBankAccount_Click" />
+        </StackPanel>
+        
+
+    </Grid>
+</Window>
